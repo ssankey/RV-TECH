@@ -262,6 +262,10 @@ padding: 0 0 2em 0;
     font-family: 'Outfit', sans-serif;
     font-size: 1.5rem;
   }
+  .about .text span{
+    color: #131418;
+    background-color: #ffffff;
+  }
   @media screen and (max-width:426px){
     .about .text {
         font-size: .9rem;
