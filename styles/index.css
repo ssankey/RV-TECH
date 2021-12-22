@@ -392,12 +392,15 @@ padding: 0 0 2em 0;
     font-size: 1.9rem;
   }
   @media screen and (max-width:426px){
-    .who .text {
-        font-size: .9rem;
-       width: 90%;
-       margin: 0 auto;
-        padding: 1rem;
-    } 
+    .who .text{
+      width: 90%;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    .who .text p{
+        font-size: 1.5rem;
+         width: 100%;
+      } 
   }
 /* End Of What We Do */
 
