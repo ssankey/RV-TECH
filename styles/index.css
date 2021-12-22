@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
 @import url("https://cdn.jsdelivr.net/npm/css.gg/icons/all.css");
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Outfit:wght@300;400;600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Outfit:wght@300;400;600&display=swap');
 
 html,body{
@@ -15,7 +17,7 @@ html,body{
 nav{
     height: 4rem;
     width: 100vw;
-    background-color: saddlebrown;
+    background-color: rgb(45, 50, 66);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     position: fixed;
@@ -226,6 +228,9 @@ padding: 0 0 2em 0;
   .banner h2{
     font-size: 2rem;
   }
+  .banner h2{
+    margin-left: .5rem;
+  }
 }
 /* About Us */
 .about-section{
@@ -253,7 +258,9 @@ padding: 0 0 2em 0;
   }
   .about .text p{
     margin-top: 2rem;
-    font-size: 1.9rem;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
   }
   @media screen and (max-width:426px){
     .about .text {
@@ -297,7 +304,6 @@ padding: 0 0 2em 0;
       align-items: center;
       flex-direction: column;
       border-radius: 2rem;
-    
   }
   
   .service-container .cards .imgBx{
@@ -359,6 +365,7 @@ padding: 0 0 2em 0;
     }
     .service-container .cards{
       margin-bottom: 2rem;
+      margin-top: 2rem;
     } 
   }
 /* End Of Services */
@@ -388,6 +395,8 @@ padding: 0 0 2em 0;
   }
   
    .who .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
     margin-top: 2rem;
     font-size: 1.9rem;
   }
@@ -408,7 +417,7 @@ padding: 0 0 2em 0;
 .footer-distributed{
     margin-top: 1rem;
     height: auto;
-    background-color: rgba(139, 69, 19, 0.694);
+    background-color: rgb(58, 63, 78);
     display: flex;
     justify-content: center;
     align-items: center;
