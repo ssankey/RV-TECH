@@ -1,0 +1,39 @@
+.service-content{
+    background-color: black;
+    color: azure;
+    padding: 5rem;
+}
+.service-content .header-info h1{
+    text-align: center;
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+.service-content .service-info{
+    border-top: 1rem solid white;
+}
+.service-content h1{
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.service-content p{
+    font-size: 2rem;
+}
+
+@media screen and (max-width:769px) {
+    /* .service-content{
+        width: 90%;
+    } */
+    .service-content h1{
+        font-size: 2rem;
+    }
+    .service-content p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:426px){
+    .service-content{
+        width: 95%;
+        padding:2rem;
+        padding-left: .8rem;
+    }
+}
