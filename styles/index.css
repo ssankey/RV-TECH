@@ -347,11 +347,18 @@ padding: 0 0 2em 0;
     .service-container{
         grid-template-columns: 1fr 1fr;
     }
+    .service-container .cards{
+      margin-bottom: 4rem;
+    } 
+    
   }
   @media screen and (max-width:769px){
     .service-container{
       margin-top: 1rem;
         grid-template-columns: 1fr;
+    }
+    .service-container .cards{
+      margin-bottom: 2rem;
     } 
   }
 /* End Of Services */
