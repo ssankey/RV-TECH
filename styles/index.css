@@ -37,7 +37,11 @@ nav{
 }
 
 /*Styling Links*/
-
+nav a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
 .nav-links{
     display: flex;
     list-style: none; 
